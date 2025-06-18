@@ -1,4 +1,4 @@
-
+# Tableau des différents type : 
 
 | Catégorie             | Description de la catégorie                                                                      | Type C#           | Description détaillée                                                                  |
 |-----------------------|--------------------------------------------------------------------------------------------------|-------------------|----------------------------------------------------------------------------------------|
@@ -30,3 +30,5 @@
 |                       |                                                                                                  | `anonymous`       | Objet créé à la volée avec des propriétés sans définir de type nommé                   |
 | **Types génériques**  | Permettent la réutilisation de types avec des paramètres, tout en conservant la sécurité de type.| `List<T>`         | Liste générique redimensionnable                                                       |
 |                       |                                                                                                  | `Dictionary<K,V>` | Structure de données clé/valeur fortement typée                                        |
+
+
