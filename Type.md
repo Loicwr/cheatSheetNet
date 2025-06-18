@@ -1,4 +1,4 @@
-# Tableau des différents type : 
+# Tableau des différents types : 
 
 | Catégorie             | Description de la catégorie                                                                      | Type C#           | Description détaillée                                                                  |
 |-----------------------|--------------------------------------------------------------------------------------------------|-------------------|----------------------------------------------------------------------------------------|
@@ -32,3 +32,10 @@
 |                       |                                                                                                  | `Dictionary<K,V>` | Structure de données clé/valeur fortement typée                                        |
 
 
+# Mémoire : pile (stack) vs tas (heap) :
+ 
+| Aspect                 | Pile (Stack)                                     | Tas (Heap)                                 |
+|------------------------|--------------------------------------------------|--------------------------------------------|
+| **Type de mémoire**    |Mémoire rapide, organisée en LIFO(pile d'appels)  |Mémoire plus lente, désorganisée, dynamique |
+| **Contenu**            |Types valeur (int, bool ,...),pointeurs locaux    |Type référence (Objets, tableaux,string,...)|
+| **Allocation**
