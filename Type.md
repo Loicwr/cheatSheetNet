@@ -38,4 +38,6 @@
 |------------------------|--------------------------------------------------|--------------------------------------------|
 | **Type de mémoire**    |Mémoire rapide, organisée en LIFO(pile d'appels)  |Mémoire plus lente, désorganisée, dynamique |
 | **Contenu**            |Types valeur (int, bool ,...),pointeurs locaux    |Type référence (Objets, tableaux,string,...)|
-| **Allocation**
+| **Allocation**         |Automatique, très rapide                          |Gérée par le Garbage Collector              |
+| **Durée de vie**       |Courte, liée au scope de la fonction              |Longue, tant qu'il y a une référence        |
+| **Libération mémoire   |Automatique (quitte la pile à la fin du scope)    |Automatique par le garbage Collector (GC)   |
